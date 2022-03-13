@@ -1,4 +1,4 @@
- * {  
+  * {  
      box-sizing: border-box;
      margin:0;
      padding: 0;
@@ -32,11 +32,11 @@ h1{
      border:2px solid linear-gradient(90deg,rgb(97, 20, 240),rgb(93, 50, 117));
      width:320px;
      background: rgb(209, 169, 247);
-     color:black;
+     color:rgb(19, 18, 18);
  }
 
  .todo-input::placeholder{
-     color:black;
+     color:rgb(26, 25, 25);
  }
 
  .todo-button{
@@ -49,11 +49,21 @@ h1{
  }
 .delet-btn{
     padding: 4px;
-     border:solid black;
+     border:solid rgb(134, 132, 132);
      cursor: pointer;
      background: white; 
      color:linear-gradient(90deg,rgb(97, 20, 240),rgb(93, 50, 117));
      font-weight: bold;
+}
+
+.edit-btn{
+    padding: 4px;
+     border: solid rgb(134, 132, 132);
+     cursor: pointer;
+     background: white; 
+     color:linear-gradient(90deg,rgb(97, 20, 240),rgb(93, 50, 117));
+     font-weight: bold;
+     margin-left: 2px;
 }
  
 
@@ -75,5 +85,4 @@ h1{
      border:5px white;
      size:10px;
  }
-
 
