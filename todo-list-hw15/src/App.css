@@ -31,12 +31,12 @@ h1{
      padding: 15px 30px 15px 15px;
      border:2px solid linear-gradient(90deg,rgb(97, 20, 240),rgb(93, 50, 117));
      width:320px;
-     background: transparent;
-     color:white;
+     background: rgb(209, 169, 247);
+     color:black;
  }
 
  .todo-input::placeholder{
-     color:white;
+     color:black;
  }
 
  .todo-button{
